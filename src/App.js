@@ -25,7 +25,6 @@ function App() {
          <Route path="*" element={<NotFound></NotFound>}></Route>
      </Routes>
      <Footer></Footer>
-     {/* 61-5 4minute 38 seconds */}
     </div>
   );
 }

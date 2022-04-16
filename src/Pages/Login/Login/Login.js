@@ -39,7 +39,7 @@ navigate("/register")
                     <Form.Check type="checkbox" label="Check me out" />
                 </Form.Group>
                 <Button variant="danger" type="submit">
-                    Submit
+                   Login
                 </Button>
             </Form>
             <p>New to The Car Doctor? <Link to={"/register"} className='text-danger pe-auto text-decoration-none' onClick={navigateRegister}>Please Register</Link></p>
