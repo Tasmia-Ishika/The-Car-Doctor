@@ -36,7 +36,7 @@ import auth from '../../../firebase.init';
     return (
         <div className='register-form'>
             <h2 className='text-danger text-center'>Please Register</h2>
-            <form onSubmit={handleRegister}>
+            <form className='mt-4' onSubmit={handleRegister}>
                 <input type="text" name="name" id="" placeholder='Your name' />
 
                 <input type="email" name="email" id="" placeholder='Your Email' required />
