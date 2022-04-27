@@ -41,8 +41,8 @@ const Header = () => {
                                     </Nav.Link>
                                     <Nav.Link as={Link} to="/manage">Manage
                                     </Nav.Link>
-
-
+                                    <Nav.Link as={Link} to="/orders">Order History
+                                    </Nav.Link>
                                 </>
                             }
 
